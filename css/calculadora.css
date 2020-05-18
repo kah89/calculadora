@@ -1,0 +1,111 @@
+/*  CSS calculadora */
+
+#calculadora_fisica {
+    width: 335px;
+    height: auto;
+    margin: 150px auto;
+    padding: 15px 20px 5px;
+    background:  #589;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    font:bold 18px Aria;
+}
+
+#opr{
+	margin-left:80px;
+    height: 20px;
+    width: 295px;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0.2);
+
+    /* Resultado */
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+}
+
+#tela {
+	margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    height: 35px;
+    width:219px;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0.2);
+
+    /* Resultado */
+    font-size: 30px;
+    line-height: 40px;
+    color: white;
+}
+
+/*  posicionar a calculadora */
+.container, .row {
+    overflow: hidden;
+}
+
+/* CSS em todas as teclas */
+.container button, #reseta {
+    float: left;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    background: white;
+    margin: 0 5px 11px 0;
+    line-height: 3px;
+    text-align: center;
+}
+
+.container button#divisao {
+    background: #00FFFF;
+    margin-right: 0; 
+}
+
+.container button#multiplicacao {
+    background: #00FFFF;
+    margin-right: 0; 
+}
+
+.container button#subtracao {
+    background: #00FFFF;
+    margin-right: 0; 
+}
+
+.container button#soma {
+    background: #00FFFF;
+    margin-right: 0; 
+}
+
+/* botão igual */
+.container button#igual {
+    background: #f1ff49;
+    color: #000;
+}
+
+.container button#igual:hover {
+    background: #abb850;
+    color: #ffffff;
+}
+
+
+
+/* botão limpar */
+#reseta {
+    background: #ff9f58;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+#reseta:hover {
+    background: #f61931;
+}
+
+
+
+/* outros botões (numeros) */
+.container button:hover {
+    background: #419877;
+    color: white;
+}
+
